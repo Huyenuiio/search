@@ -228,7 +228,8 @@ document.getElementById("searchInput").addEventListener("keypress", function(eve
                    text3:"Tập 7 - Khu rừng huyền bí",
                    image: "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10087-el5Bo1VMZwsU.png"
                },
-               "test": {
+             
+               "test2": {
                    text: "null",
                    text2: "null",
                    text3:"null",
