@@ -1,0 +1,164 @@
+/* CSS để định dạng trang web của bạn */
+body {
+    font-family: "Quicksand", sans-serif;
+font-optical-sizing: auto;
+font-weight: weight;
+font-style: normal;
+}
+/* #searchInput {
+    width: 200px;
+    height: 20px;
+}
+#searchButton {
+    height: 24px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+} */
+
+.form-input {
+        border: 1px solid #eee;
+        border-radius: 4px;
+        width: 100%;
+        height: 50px;
+        padding: 0 20px;
+        transform: 0.25 ease;
+
+}
+.form-input:focus{
+border-color: #6a5af9;
+outline: none;
+}
+.form-field {
+position: relative;
+}
+
+.form-label{
+position: absolute;
+top: 18px;
+transform: translate(-1px);
+left: 21px;
+user-select: none;
+color: #999;
+pointer-events: none;
+transition: 0.25s ease;
+}
+/* Internal CSS */
+.form-input:not(:placeholder-shown) + .form-label,
+.form-input:focus + .form-label{
+top: -9px;
+left: 11px;
+padding:  0 10px;
+display: inline-block;
+background-color: white;
+color:#6a5af9;
+}
+
+#searchButton {
+display: none;
+} 
+.copy-buttonn {
+background-color: #0074D9;
+color: #FFFFFF;
+border: none;
+padding: 8px 16px;
+font-size: 14px;
+cursor: pointer;
+/* display: none; */
+}
+.copy-button {
+background-color: #FF4136;
+color: #FFFFFF;
+border: none;
+padding: 8px 16px;
+font-size: 14px;
+cursor: pointer;
+/* display: none; */
+}
+button{
+background-color: black;
+color: white;
+border: 2px solid white;
+padding: 8px 16px;
+font-size: 14px;
+cursor: pointer;
+margin: 53px 0px 32px 368px;    /* top 40px. right 30px. bottom 20px.  left 300px*/
+justify-content: center;
+box-sizing: border-box;           
+border-radius: 14px;
+box-shadow: #999;
+}
+button:active{
+background-color: white;
+}
+button:hover{
+border: 2px solid aqua;
+}
+img {
+display: block;
+margin-left: auto;
+margin-right: auto;
+/* width: 800px; */
+}
+a{
+display: flex; 
+justify-content: center; 
+align-items: center; 
+font-weight: bold;
+font-size: larger;
+margin: 5px;
+padding: 6px;
+/* tùy chỉnh tiêu đề theo anilist*/
+color: rgb(var(--color-gray-700));
+font-size: 1.4rem;
+font-weight: 600;
+line-height: 21px;
+overflow: hidden;
+transition: color .2s ease;
+-webkit-box-orient: vertical;
+}
+h3{
+display: flex; 
+justify-content: center; 
+align-items: center; 
+font-weight: bold;
+font-size: larger;
+margin: 5px;
+padding: 6px;
+/* grid-gap: 25px 14px;
+justify-content: center;
+grid-template-columns: repeat(auto-fill, minmax(125px, 1fr));
+padding: 0 20px; */
+/* tùy chỉnh tiêu đề theo anilist*/
+color: rgb(var(--color-gray-700));
+font-size: 1.4rem;
+font-weight: 600;
+line-height: 21px;
+margin-top: 10px;
+overflow: hidden;
+transition: color .2s ease;
+display: -webkit-box;
+-webkit-box-orient: vertical;
+}
+img{
+width: 148px;
+height: 197px;
+border-radius: 20px;
+border: 2px solid black;
+filter: invert(0);
+object-fit: cover;
+transition: opacity .3s ease-in-out;
+cursor: pointer;
+/* grid-gap: 25px 14px;
+justify-content: center;
+grid-template-columns: repeat(auto-fill, minmax(125px, 1fr)); */
+/* padding: 0 20px; */
+}
+#resultt{
+display: grid;
+grid-gap: 28px 30px;
+grid-template-columns: repeat(auto-fill, 185px);
+justify-content: space-between;
+padding: 0 20px;
+}
