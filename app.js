@@ -6,6 +6,7 @@
     { name: "Tokidoki Bosotto Russiago de Dereru Tonari no Alya-san", image: "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx162804-TBeptcAfvqTd.jpg" },
     { name: "Shikanoko Nokonoko Koshitantan", image: "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx175977-miHFASI6TXHH.jpg" }, 
     { name: "ATRI: My Dear Moments", image: "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx154963-Ju6Ey3P5YHs2.jpg" }, 
+    { name: "Kimetsu no Yaiba: Hashira Geiko-hen", image: "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx166240-PBV7zukIHW7V.png" }, 
 ];
 
 // Hiển thị thông tin từ mảng lên giao diện
@@ -73,6 +74,22 @@ document.getElementById("searchInput").addEventListener("keypress", function(eve
 });
 
 
+
+
+document.getElementById("searchInput").addEventListener("keypress", function(event) {
+    if (event.key === "Enter") {
+        const keyword = document.getElementById("searchInput").value;
+        if (keyword === "exit") {
+            // Đóng trang web
+            window.close();
+            document.getElementById("searchInput").value = "";
+        } else {
+            // Xóa nội dung trên trang web
+            const resultDiv = document.getElementById("result");
+            resultDiv.innerHTML = "";
+        }
+    }
+});
 
 
 
@@ -229,11 +246,11 @@ document.getElementById("searchInput").addEventListener("keypress", function(eve
                    image: "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10087-el5Bo1VMZwsU.png"
                },
              
-               "test2": {
-                   text: "null",
+               "Kimetsu no Yaiba: Hashira Geiko-hen ep1": {
+                   text: "https://raw.githubusercontent.com/Huyenuiio/fsfafafewwkjawekfj/main/ep1/output.m3u8",
                    text2: "null",
-                   text3:"null",
-                   image: "null"
+                   text3:"Tập 1 - Vì tâm nguyện tiêu diệt Kibutsuji Muzan",
+                   image: "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx166240-PBV7zukIHW7V.png"
                },
                " ": {
                    text: "",
