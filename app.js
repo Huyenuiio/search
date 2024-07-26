@@ -230,6 +230,12 @@ document.getElementById("searchInput").addEventListener("keypress", function(eve
                    text3:"Tập 8 - Thợ săn Ma Thuật Sư",
                    image: "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10087-el5Bo1VMZwsU.png"
                },
+               "Fate/Zero ep9": {
+                   text: "https://raw.githubusercontent.com/Huyenuiio/gittesst2/huyenndevv/fatezeroEP9/output.m3u8",
+                   text2: "https://raw.githubusercontent.com/Huyenuiio/gittesst2/huyenndevv/fatezeroEP9/E9%20-%20Master%20v%C3%A0%20Servant%20%5B367576%5D.vi.srt",
+                   text3:"Tập 9 - Master và Servant",
+                   image: "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10087-el5Bo1VMZwsU.png"
+               },
 
 
 
