@@ -236,6 +236,12 @@ document.getElementById("searchInput").addEventListener("keypress", function(eve
                    text3:"Tập 9 - Master và Servant",
                    image: "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10087-el5Bo1VMZwsU.png"
                },
+               "Fate/Zero ep10": {
+                   text: "https://raw.githubusercontent.com/Huyenuiio/gittesst2/huyenndevv/fatezeroEP10/output.m3u8",
+                   text2: "https://raw.githubusercontent.com/Huyenuiio/gittesst2/huyenndevv/fatezeroEP10/E10%20-%20Cu%E1%BB%99c%20phi%C3%AAu%20l%C6%B0u%20c%E1%BB%A7a%20Rin%20%5B367577%5D.vi.srt",
+                   text3:"Tập 10 - Cuộc phiêu lưu của Rin",
+                   image: "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10087-el5Bo1VMZwsU.png"
+               },
 
 
 
