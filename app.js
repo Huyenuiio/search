@@ -7,6 +7,7 @@
     { name: "Shikanoko Nokonoko Koshitantan", image: "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx175977-miHFASI6TXHH.jpg" }, 
     { name: "ATRI: My Dear Moments", image: "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx154963-Ju6Ey3P5YHs2.jpg" }, 
     { name: "Kimetsu no Yaiba: Hashira Geiko-hen", image: "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx166240-PBV7zukIHW7V.png" }, 
+    { name: "Make Heroine ga Oosugiru!", image: "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx171457-Z8tZRk7LhcZk.jpg" }, 
 ];
 
 // Hiển thị thông tin từ mảng lên giao diện
@@ -251,6 +252,12 @@ document.getElementById("searchInput").addEventListener("keypress", function(eve
                    text2: "null",
                    text3:"Tập 1 - Vì tâm nguyện tiêu diệt Kibutsuji Muzan",
                    image: "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx166240-PBV7zukIHW7V.png"
+               },
+               "Make Heroine ga Oosugiru! ep1": {
+                   text: "https://raw.githubusercontent.com/Huyenuiio/gittesst2/huyenndevv/MakeHeroinegaOosugiruEP1/output.m3u8",
+                   text2: "https://raw.githubusercontent.com/Huyenuiio/gittesst2/huyenndevv/MakeHeroinegaOosugiruEP1/%5BSubsPlease%5D%20Make%20Heroine%20ga%20Oosugiru!%20-%2001%20(480p)%20%5BFF6DDF71%5D.ass",
+                   text3:"Tập 1 - ",
+                   image: "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx171457-Z8tZRk7LhcZk.jpg"
                },
                " ": {
                    text: "",
