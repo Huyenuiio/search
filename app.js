@@ -381,3 +381,39 @@ document.getElementById("searchInput").addEventListener("keypress", function(eve
 
        }
    });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+const  Alice = {
+    Name: 'Alice',
+    Age:'1 month',
+    Gender:'Female',
+    Birthday:'July 10',
+    Code:'HTML + CSS',
+    ProgrammingLanguage:'Javascript',
+    Size:'90,050 bytes',
+
+
+    Search(){
+        console.log(this)
+    }
+}
+console.log(Alice.Search())
