@@ -242,6 +242,24 @@ document.getElementById("searchInput").addEventListener("keypress", function(eve
                    text3:"Tập 10 - Cuộc phiêu lưu của Rin",
                    image: "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10087-el5Bo1VMZwsU.png"
                },
+               "Fate/Zero ep11": {
+                   text: "https://raw.githubusercontent.com/Huyenuiio/gittesst2/huyenndevv/fatezeroEP11/output.m3u8",
+                   text2: "https://raw.githubusercontent.com/Huyenuiio/gittesst2/huyenndevv/fatezeroEP11/E11%20-%20Cu%E1%BB%99c%20%C4%91%E1%BB%91i%20tho%E1%BA%A1i%20v%E1%BB%9Bi%20Ch%C3%A9n%20Th%C3%A1nh%20%5B367578%5D.vi.srt",
+                   text3:"Tập 11 - Cuộc đối thoại với Chén Thánh",
+                   image: "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10087-el5Bo1VMZwsU.png"
+               },
+               "Fate/Zero ep12": {
+                   text: "https://raw.githubusercontent.com/Huyenuiio/gittesst2/huyenndevv/fatezeroEP12/output.m3u8",
+                   text2: "https://raw.githubusercontent.com/Huyenuiio/gittesst2/huyenndevv/fatezeroEP12/E12%20-%20L%E1%BB%9Di%20m%E1%BB%9Di%20c%E1%BB%A7a%20Ch%C3%A9n%20Th%C3%A1nh%20%5B367579%5D.vi.srt",
+                   text3:"Tập 12 - Lời mời của Chén Thánh",
+                   image: "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10087-el5Bo1VMZwsU.png"
+               },
+               "Fate/Zero ep13": {
+                   text: "https://raw.githubusercontent.com/Huyenuiio/gittesst2/huyenndevv/fatezeroEP13/output.m3u8",
+                   text2: "https://raw.githubusercontent.com/Huyenuiio/gittesst2/huyenndevv/fatezeroEP13/E13%20-%20B%E1%BB%AFa%20ti%E1%BB%87c%20r%C6%B0%E1%BB%A3u%20c%E1%BB%A7a%20s%E1%BB%B1%20c%E1%BA%A5m%20%C4%91o%C3%A1n%20%5B367580%5D.vi.srt",
+                   text3:"Tập 13 - Bữa tiệc rượu của sự cấm đoán",
+                   image: "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10087-el5Bo1VMZwsU.png"
+               },
 
 
 
