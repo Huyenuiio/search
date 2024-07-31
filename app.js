@@ -209,6 +209,18 @@ document.getElementById("searchInput").addEventListener("keypress", function(eve
                    text3:"Tập 1 - Đến Cái Nôi Của Biển",
                    image: "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx154963-Ju6Ey3P5YHs2.jpg"
                },
+               "ATRI: My Dear Moments ep2": {
+                   text: "https://raw.githubusercontent.com/Huyenuiio/gittesst2/huyenndevv/ATRIMyDearMomentsEP2/output.m3u8",
+                   text2: " ",
+                   text3:"Tập 2 - Khung cảnh ấp áp cho hai người",
+                   image: "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx154963-Ju6Ey3P5YHs2.jpg"
+               },
+               "ATRI: My Dear Moments ep3 null": {
+                   text: "https://raw.githubusercontent.com/Huyenuiio/gittesst2/huyenndevv/ATRIMyDearMomentsEP2/output.m3u8",
+                   text2: " ",
+                   text3:"Tập 3 -Sát thủ nhải nhép và trường học",
+                   image: "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx154963-Ju6Ey3P5YHs2.jpg"
+               },
 
                "Fate/Zero ep5": {
                    text: "https://raw.githubusercontent.com/Huyenuiio/Fate-Zero/main/ep5/output.m3u8",
@@ -417,3 +429,5 @@ const  Alice = {
     }
 }
 console.log(Alice.Search())
+
+
