@@ -305,13 +305,19 @@ document.getElementById("searchInput").addEventListener("keypress", function(eve
                "Make Heroine ga Oosugiru! ep1": {
                    text: "https://raw.githubusercontent.com/Huyenuiio/gittesst2/huyenndevv/MakeHeroinegaOosugiruEP1/output.m3u8",
                    text2: "https://raw.githubusercontent.com/Huyenuiio/gittesst2/huyenndevv/MakeHeroinegaOosugiruEP1/%5BSubsPlease%5D%20Make%20Heroine%20ga%20Oosugiru!%20-%2001%20(480p)%20%5BFF6DDF71%5D.ass",
-                   text3:"Tập 1 - ",
+                   text3:"Tập 1 - Người bạn thời thơ ấu chuyên nghiệp Yanami Anna Phong cách thua cuộc",
                    image: "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx171457-Z8tZRk7LhcZk.jpg"
                },
                "Make Heroine ga Oosugiru! ep2": {
                    text: "https://raw.githubusercontent.com/Huyenuiio/gittesst2/huyenndevv/MakeHeroinegaOosugiruEP2/output.m3u8",
                    text2: "https://raw.githubusercontent.com/Huyenuiio/gittesst2/huyenndevv/MakeHeroinegaOosugiruEP2/%5BSubsPlease%5D%20Make%20Heroine%20ga%20Oosugiru!%20-%2002%20(480p)%20%5B71BB81AC%5D.ass",
-                   text3:"Tập 2 - ",
+                   text3:"Tập 2 - Sự thất bại đã hứa hẹn dành cho bạn",
+                   image: "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx171457-Z8tZRk7LhcZk.jpg"
+               },
+               "Make Heroine ga Oosugiru! ep3": {
+                   text: "https://raw.githubusercontent.com/Huyenuiio/gittesst2/huyenndevv/MakeHeroinegaOosugiruEP3/output.m3u8",
+                   text2: "https://raw.githubusercontent.com/Huyenuiio/gittesst2/huyenndevv/MakeHeroinegaOosugiruEP3/%5BSubsPlease%5D%20Make%20Heroine%20ga%20Oosugiru!%20-%2003%20(480p)%20%5BA184D16C%5D.ass",
+                   text3:"Tập 3 - Thua trận trước khi được chiến đấu",
                    image: "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx171457-Z8tZRk7LhcZk.jpg"
                },
                " ": {
