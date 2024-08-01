@@ -196,6 +196,13 @@ document.getElementById("searchInput").addEventListener("keypress", function(eve
                    image: "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx175977-miHFASI6TXHH.jpg"
                },
               
+                "Shikanoko Nokonoko Koshitantan ep4": {
+                   text: "https://raw.githubusercontent.com/Huyenuiio/gittesst2/huyenndevv/ShikanokoNokonokoKoshitantanEP4/output.m3u8",
+                   text2: "https://raw.githubusercontent.com/Huyenuiio/gittesst2/huyenndevv/ShikanokoNokonokoKoshitantanEP4/%5BIoroid%5D%20Shikanoko%20Nokonoko%20Koshitantan%20-%2004%20%5BABEMA%20WEB-DL%201080p%20AVC%20AAC%5D.ass",
+                    text3:"Tập 4",
+                   image: "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx175977-miHFASI6TXHH.jpg"
+               },
+              
                
                 "Tokidoki Bosotto Russiago de Dereru Tonari no Alya-san ep2": {
                    text: "https://raw.githubusercontent.com/Huyenuiio/Data-src/main/video/Tokidoki%20Bosotto%20Russiago%20de%20Dereru%20Tonari%20no%20Alya-san/ep2/output.m3u8",
@@ -299,6 +306,12 @@ document.getElementById("searchInput").addEventListener("keypress", function(eve
                    text: "https://raw.githubusercontent.com/Huyenuiio/gittesst2/huyenndevv/MakeHeroinegaOosugiruEP1/output.m3u8",
                    text2: "https://raw.githubusercontent.com/Huyenuiio/gittesst2/huyenndevv/MakeHeroinegaOosugiruEP1/%5BSubsPlease%5D%20Make%20Heroine%20ga%20Oosugiru!%20-%2001%20(480p)%20%5BFF6DDF71%5D.ass",
                    text3:"Tập 1 - ",
+                   image: "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx171457-Z8tZRk7LhcZk.jpg"
+               },
+               "Make Heroine ga Oosugiru! ep2": {
+                   text: "https://raw.githubusercontent.com/Huyenuiio/gittesst2/huyenndevv/MakeHeroinegaOosugiruEP2/output.m3u8",
+                   text2: "https://raw.githubusercontent.com/Huyenuiio/gittesst2/huyenndevv/MakeHeroinegaOosugiruEP2/%5BSubsPlease%5D%20Make%20Heroine%20ga%20Oosugiru!%20-%2002%20(480p)%20%5B71BB81AC%5D.ass",
+                   text3:"Tập 2 - ",
                    image: "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx171457-Z8tZRk7LhcZk.jpg"
                },
                " ": {
