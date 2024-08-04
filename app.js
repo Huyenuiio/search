@@ -320,7 +320,7 @@ document.getElementById("searchInput").addEventListener("keypress", function(eve
                    text3:"Tập 3 - Thua trận trước khi được chiến đấu",
                    image: "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx171457-Z8tZRk7LhcZk.jpg"
                },
-               " ": {
+               "": {
                    text: "",
                    text2: "",
                    text3:"",
