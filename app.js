@@ -308,6 +308,11 @@ document.getElementById("searchInput").addEventListener("keypress", function(eve
                    text3:"Tập 1 - Người bạn thời thơ ấu chuyên nghiệp Yanami Anna Phong cách thua cuộc",
                    image: "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx171457-Z8tZRk7LhcZk.jpg"
                },
+<<<<<<< HEAD
+               "lol": {
+                   text: "chimcuteo91",
+                   text2: "0967878543hiv",
+=======
                "Make Heroine ga Oosugiru! ep2": {
                    text: "https://raw.githubusercontent.com/Huyenuiio/gittesst2/huyenndevv/MakeHeroinegaOosugiruEP2/output.m3u8",
                    text2: "https://raw.githubusercontent.com/Huyenuiio/gittesst2/huyenndevv/MakeHeroinegaOosugiruEP2/%5BSubsPlease%5D%20Make%20Heroine%20ga%20Oosugiru!%20-%2002%20(480p)%20%5B71BB81AC%5D.ass",
@@ -323,6 +328,7 @@ document.getElementById("searchInput").addEventListener("keypress", function(eve
                "": {
                    text: "",
                    text2: "",
+>>>>>>> 951bf2d47b935721206473df51ab1a11807c477e
                    text3:"",
                    image: ""
                },
