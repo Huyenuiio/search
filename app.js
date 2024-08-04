@@ -196,6 +196,13 @@ document.getElementById("searchInput").addEventListener("keypress", function(eve
                    image: "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx175977-miHFASI6TXHH.jpg"
                },
               
+                "Shikanoko Nokonoko Koshitantan ep4": {
+                   text: "https://raw.githubusercontent.com/Huyenuiio/gittesst2/huyenndevv/ShikanokoNokonokoKoshitantanEP4/output.m3u8",
+                   text2: "https://raw.githubusercontent.com/Huyenuiio/gittesst2/huyenndevv/ShikanokoNokonokoKoshitantanEP4/%5BIoroid%5D%20Shikanoko%20Nokonoko%20Koshitantan%20-%2004%20%5BABEMA%20WEB-DL%201080p%20AVC%20AAC%5D.ass",
+                    text3:"Tập 4",
+                   image: "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx175977-miHFASI6TXHH.jpg"
+               },
+              
                
                 "Tokidoki Bosotto Russiago de Dereru Tonari no Alya-san ep2": {
                    text: "https://raw.githubusercontent.com/Huyenuiio/Data-src/main/video/Tokidoki%20Bosotto%20Russiago%20de%20Dereru%20Tonari%20no%20Alya-san/ep2/output.m3u8",
@@ -207,6 +214,18 @@ document.getElementById("searchInput").addEventListener("keypress", function(eve
                    text: "https://raw.githubusercontent.com/Huyenuiio/ATRI-My-Dear-Moments/main/ep1/output.m3u8",
                    text2: "https://raw.githubusercontent.com/Huyenuiio/ATRI-My-Dear-Moments/main/ep1/E1%20-%20%C4%90%E1%BA%BFn%20C%C3%A1i%20N%C3%B4i%20C%E1%BB%A7a%20Bi%E1%BB%83n%20%5B13262697%5D.vi.srt",
                    text3:"Tập 1 - Đến Cái Nôi Của Biển",
+                   image: "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx154963-Ju6Ey3P5YHs2.jpg"
+               },
+               "ATRI: My Dear Moments ep2": {
+                   text: "https://raw.githubusercontent.com/Huyenuiio/gittesst2/huyenndevv/ATRIMyDearMomentsEP2/output.m3u8",
+                   text2: " ",
+                   text3:"Tập 2 - Khung cảnh ấp áp cho hai người",
+                   image: "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx154963-Ju6Ey3P5YHs2.jpg"
+               },
+               "ATRI: My Dear Moments ep3 null": {
+                   text: "https://raw.githubusercontent.com/Huyenuiio/gittesst2/huyenndevv/ATRIMyDearMomentsEP2/output.m3u8",
+                   text2: " ",
+                   text3:"Tập 3 -Sát thủ nhải nhép và trường học",
                    image: "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx154963-Ju6Ey3P5YHs2.jpg"
                },
 
@@ -286,15 +305,40 @@ document.getElementById("searchInput").addEventListener("keypress", function(eve
                "Make Heroine ga Oosugiru! ep1": {
                    text: "https://raw.githubusercontent.com/Huyenuiio/gittesst2/huyenndevv/MakeHeroinegaOosugiruEP1/output.m3u8",
                    text2: "https://raw.githubusercontent.com/Huyenuiio/gittesst2/huyenndevv/MakeHeroinegaOosugiruEP1/%5BSubsPlease%5D%20Make%20Heroine%20ga%20Oosugiru!%20-%2001%20(480p)%20%5BFF6DDF71%5D.ass",
-                   text3:"Tập 1 - ",
+                   text3:"Tập 1 - Người bạn thời thơ ấu chuyên nghiệp Yanami Anna Phong cách thua cuộc",
                    image: "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx171457-Z8tZRk7LhcZk.jpg"
                },
+<<<<<<< HEAD
                "lol": {
                    text: "chimcuteo91",
                    text2: "0967878543hiv",
+=======
+               "Make Heroine ga Oosugiru! ep2": {
+                   text: "https://raw.githubusercontent.com/Huyenuiio/gittesst2/huyenndevv/MakeHeroinegaOosugiruEP2/output.m3u8",
+                   text2: "https://raw.githubusercontent.com/Huyenuiio/gittesst2/huyenndevv/MakeHeroinegaOosugiruEP2/%5BSubsPlease%5D%20Make%20Heroine%20ga%20Oosugiru!%20-%2002%20(480p)%20%5B71BB81AC%5D.ass",
+                   text3:"Tập 2 - Sự thất bại đã hứa hẹn dành cho bạn",
+                   image: "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx171457-Z8tZRk7LhcZk.jpg"
+               },
+               "Make Heroine ga Oosugiru! ep3": {
+                   text: "https://raw.githubusercontent.com/Huyenuiio/gittesst2/huyenndevv/MakeHeroinegaOosugiruEP3/output.m3u8",
+                   text2: "https://raw.githubusercontent.com/Huyenuiio/gittesst2/huyenndevv/MakeHeroinegaOosugiruEP3/%5BSubsPlease%5D%20Make%20Heroine%20ga%20Oosugiru!%20-%2003%20(480p)%20%5BA184D16C%5D.ass",
+                   text3:"Tập 3 - Thua trận trước khi được chiến đấu",
+                   image: "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx171457-Z8tZRk7LhcZk.jpg"
+               },
+               "": {
+                   text: "",
+                   text2: "",
+>>>>>>> 951bf2d47b935721206473df51ab1a11807c477e
                    text3:"",
                    image: ""
                },
+               "null": {
+                   text: "null",
+                   text2: "null",
+                   text3:"",
+                   image: ""
+               },
+             
 
                
                "`": {
@@ -417,3 +461,5 @@ const  Alice = {
     }
 }
 console.log(Alice.Search())
+
+
