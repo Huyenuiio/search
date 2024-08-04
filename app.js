@@ -326,6 +326,13 @@ document.getElementById("searchInput").addEventListener("keypress", function(eve
                    text3:"",
                    image: ""
                },
+               "null": {
+                   text: "null",
+                   text2: "null",
+                   text3:"",
+                   image: ""
+               },
+             
 
                
                "`": {
