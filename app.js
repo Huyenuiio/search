@@ -8,9 +8,28 @@
     { name: "ATRI: My Dear Moments", image: "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx154963-Ju6Ey3P5YHs2.jpg" }, 
     { name: "Kimetsu no Yaiba: Hashira Geiko-hen", image: "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx166240-PBV7zukIHW7V.png" }, 
     { name: "Make Heroine ga Oosugiru!", image: "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx171457-Z8tZRk7LhcZk.jpg" }, 
+    { name: "SPY×FAMILY CODE: White", image: "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx158928-xqE0euKlQMnY.jpg" }, 
 ];
 
-// Hiển thị thông tin từ mảng lên giao diện
+// // Hiển thị thông tin từ mảng lên giao diện
+// function displayData() {
+//     const resultDiv = document.getElementById("resultt");
+//     resultDiv.innerHTML = ""; // Xóa nội dung cũ
+
+//     dataa.forEach(item => {
+//         const itemDiv = document.createElement("div");
+//         itemDiv.classList.add("item");
+//         itemDiv.innerHTML = `
+//             <h3>${item.name}</h3>
+//             <img src="${item.image}" alt="${item.name}">
+//         `;
+//         resultDiv.appendChild(itemDiv);
+//     });
+// }
+
+
+
+// // Hiển thị thông tin từ mảng lên giao diện nhưng thêm even khi click vào thẻ h3 là copy string và copy src img
 function displayData() {
     const resultDiv = document.getElementById("resultt");
     resultDiv.innerHTML = ""; // Xóa nội dung cũ
@@ -18,13 +37,77 @@ function displayData() {
     dataa.forEach(item => {
         const itemDiv = document.createElement("div");
         itemDiv.classList.add("item");
-        itemDiv.innerHTML = `
-            <h3>${item.name}</h3>
-            <img src="${item.image}" alt="${item.name}">
-        `;
+
+        const itemH3 = document.createElement("h3");
+        const itemImg = document.createElement("img");
+
+        itemImg.src = item.image;
+        itemImg.alt = item.name;
+
+        itemH3.textContent = item.name;
+
+        // Sự kiện click cho thẻ h3 để copy tên
+        itemH3.onclick = function() {
+            copyTextToClipboard(item.name, this);
+        };
+
+        // Sự kiện click cho thẻ img để copy đường dẫn hình ảnh
+        itemImg.onclick = function() {
+            copyTextToClipboard(itemImg.src, this);
+        };
+
+        itemDiv.appendChild(itemH3);
+        itemDiv.appendChild(itemImg);
+
         resultDiv.appendChild(itemDiv);
     });
 }
+
+function copyTextToClipboard(text, element) {
+    navigator.clipboard.writeText(text).then(() => {
+        console.log('Text or image URL copied to clipboard');
+        // Thêm lớp 'copied' vào thẻ sau khi nội dung được copy
+        element.classList.add('copied');
+
+        // Tùy chọn: Loại bỏ lớp 'copied' sau vài giây nếu muốn
+        setTimeout(() => {
+            element.classList.remove('copied');
+        }, 2000); // Loại bỏ hiệu ứng sau 2 giây
+    }).catch(err => {
+        console.error('Failed to copy text or image URL: ', err);
+    });
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // // Khi nhập từ khóa vào thanh tìm kiếm, gọi hàm hiển thị dữ liệu
 // document.getElementById("searchButton").addEventListener("click", function() {
@@ -308,11 +391,9 @@ document.getElementById("searchInput").addEventListener("keypress", function(eve
                    text3:"Tập 1 - Người bạn thời thơ ấu chuyên nghiệp Yanami Anna Phong cách thua cuộc",
                    image: "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx171457-Z8tZRk7LhcZk.jpg"
                },
-<<<<<<< HEAD
-               "lol": {
-                   text: "chimcuteo91",
-                   text2: "0967878543hiv",
-=======
+
+             
+
                "Make Heroine ga Oosugiru! ep2": {
                    text: "https://raw.githubusercontent.com/Huyenuiio/gittesst2/huyenndevv/MakeHeroinegaOosugiruEP2/output.m3u8",
                    text2: "https://raw.githubusercontent.com/Huyenuiio/gittesst2/huyenndevv/MakeHeroinegaOosugiruEP2/%5BSubsPlease%5D%20Make%20Heroine%20ga%20Oosugiru!%20-%2002%20(480p)%20%5B71BB81AC%5D.ass",
@@ -325,13 +406,21 @@ document.getElementById("searchInput").addEventListener("keypress", function(eve
                    text3:"Tập 3 - Thua trận trước khi được chiến đấu",
                    image: "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx171457-Z8tZRk7LhcZk.jpg"
                },
-               "": {
-                   text: "",
-                   text2: "",
->>>>>>> 951bf2d47b935721206473df51ab1a11807c477e
-                   text3:"",
-                   image: ""
+               
+               
+               "SPY×FAMILY CODE: White ep1": {
+                   text: "https://raw.githubusercontent.com/Huyenuiio/gittesst2/spyxfamily/spyxfamilycodewhite/output.m3u8",
+                   text2: "Null",
+                   text3:"Movie",
+                   image: "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx158928-xqE0euKlQMnY.jpg"
                },
+               "ATRI: My Dear Moments ep3": {
+                   text: "https://raw.githubusercontent.com/Huyenuiio/gittesst2/spyxfamily/ATRIMyDearMomentsEP3/output.m3u8",
+                   text2: "null",
+                   text3:"Tập 3 - ",
+                   image: "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx154963-Ju6Ey3P5YHs2.jpg"
+               },
+             
                "null": {
                    text: "null",
                    text2: "null",

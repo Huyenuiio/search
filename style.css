@@ -140,6 +140,7 @@ overflow: hidden;
 transition: color .2s ease;
 display: -webkit-box;
 -webkit-box-orient: vertical;
+cursor: pointer;
 }
 img{
 width: 148px;
@@ -167,7 +168,11 @@ padding: 0 20px;
 
 
 
-
+.copied {
+    color: green; /* Thay đổi màu chữ sau khi copy */
+    background-color: lightgrey; /* Thêm màu nền nếu muốn */
+    /* Thêm bất kỳ thuộc tính CSS nào bạn muốn để tạo hiệu ứng sau khi copy */
+}
 
 
 
