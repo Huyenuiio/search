@@ -421,6 +421,18 @@ document.getElementById("searchInput").addEventListener("keypress", function(eve
                    image: "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx154963-Ju6Ey3P5YHs2.jpg"
                },
              
+               "ATRI: My Dear Moments ep4": {
+                   text: "https://raw.githubusercontent.com/Huyenuiio/gittesst2/spyxfamily/ATRIMyDearMomentsEP4/output.m3u8",
+                   text2: "null",
+                   text3:"Tập 4 - ",
+                   image: "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx154963-Ju6Ey3P5YHs2.jpg"
+               },
+               "Tokidoki Bosotto Russiago de Dereru Tonari no Alya-san ep4": {
+                   text: "https://raw.githubusercontent.com/Huyenuiio/gittesst2/spyxfamily/TokidokiBosottoRussiagodeDereruTonarinoAlyasanEP4/output.m3u8",
+                   text2: "https://raw.githubusercontent.com/Huyenuiio/gittesst2/spyxfamily/TokidokiBosottoRussiagodeDereruTonarinoAlyasanEP4/%5BSubsPlease%5D%20Tokidoki%20Bosotto%20Russia-go%20de%20Dereru%20Tonari%20no%20Alya-san%20-%2004%20(480p)%20%5B4B351746%5D.ass",
+                   text3:"Tập 4 - ",
+                   image: "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx162804-TBeptcAfvqTd.jpg"
+               },
                "null": {
                    text: "null",
                    text2: "null",
