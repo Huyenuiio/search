@@ -293,6 +293,12 @@ document.getElementById("searchInput").addEventListener("keypress", function(eve
                    text3:"Tập 2 - Bạn thuở nhỏ là gì?",
                    image: "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx162804-TBeptcAfvqTd.jpg"
                },
+                "Tokidoki Bosotto Russiago de Dereru Tonari no Alya-san ep5": {
+                   text: "https://raw.githubusercontent.com/Huyenuiio/gainga/main/gaingaEP5/output.m3u8",
+                   text2: "https://raw.githubusercontent.com/Huyenuiio/gainga/main/gaingaEP5/%5BSubtitleTools.com%5D%20%5BSubsPlease%5D%20Tokidoki%20Bosotto%20Russia-go%20de%20Dereru%20Tonari%20no%20Alya-san%20-%2005%20(480p)%20%5B5BD0E6B8%5D.srt",
+                   text3:"Tập 5 - Những con người khác nhau, dòng chảy chung",
+                   image: "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx162804-TBeptcAfvqTd.jpg"
+               },
                "ATRI: My Dear Moments ep1": {
                    text: "https://raw.githubusercontent.com/Huyenuiio/ATRI-My-Dear-Moments/main/ep1/output.m3u8",
                    text2: "https://raw.githubusercontent.com/Huyenuiio/ATRI-My-Dear-Moments/main/ep1/E1%20-%20%C4%90%E1%BA%BFn%20C%C3%A1i%20N%C3%B4i%20C%E1%BB%A7a%20Bi%E1%BB%83n%20%5B13262697%5D.vi.srt",
